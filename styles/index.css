@@ -11,6 +11,11 @@ section {
     background-color: #ffffff;
 }
 
+#introduction-message {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 /* Feature items with shadow and transition for hover effect */
 .feature-item {
     margin: 20px;
