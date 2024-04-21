@@ -18,3 +18,20 @@ git clone https://github.com/yourusername/fitness-app.git
 cd fitness-app
 npm install
 npm start
+
+## Contributing to the Project
+
+Your contributions to the project are welcome! Here's how you can contribute:
+
+1. Browse the existing issues for bugs or enhancements that interest you.
+2. Fork the repository and make your changes.
+3. Write or adapt tests as needed.
+4. Submit a pull request with a clear description of your changes.
+
+Please refer to the `CONTRIBUTING.md` file for more detailed information on how to contribute.
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE.txt` file for details.
+
+Thank you for being a part of the Comprehensive Fitness App community!
