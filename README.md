@@ -19,7 +19,7 @@ cd fitness-app
 npm install
 npm start
 
-bash```
+```
 
 ## Contributing to the Project
 
