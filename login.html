@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Comprehensive Fitness App</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Login Page -->
+    <!-- This page allows existing users to log in to their accounts to access the fitness app. -->
+
+    <header>
+        <!-- Navigation bar -->
+        <nav>
+            <div id="logo">
+                <a href="index.html"><img src="assets/logo.png" alt="Fitness App Logo"></a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Login Form -->
+        <section id="login">
+            <h1>Welcome Back</h1>
+            <form action="/login" method="post">
+                <!-- Email field -->
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <!-- Password field -->
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <!-- Login button -->
+                <div class="form-group">
+                    <button type="submit" class="cta-button">Log In</button>
+                </div>
+
+                <!-- Forgot password link -->
+                <div class="form-group">
+                    <a href="forgot-password.html">Forgot your password?</a>
+                </div>
+            </form>
+
+            <!-- Link to Sign Up page for new users -->
+            <p>Don't have an account yet? <a href="signup.html">Sign up now</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer with additional navigation and legal links -->
+        <nav>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- <script src="scripts/main.js"></script> -->
+</body>
+</html>

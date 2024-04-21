@@ -1,0 +1,160 @@
+/* index.css specific styles for the homepage */
+
+/* General styling for sections */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Normalize backgrounds for consistency */
+#introduction, #features, #testimonials, #call-to-action {
+    background-color: #ffffff;
+}
+
+/* Feature items with shadow and transition for hover effect */
+.feature-item {
+    margin: 20px;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Testimonials with a more distinct look */
+.testimonial {
+    background: #e7eff6;
+    border-radius: 8px;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 600px; /* To prevent testimonials from becoming too wide on larger screens */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+    background-color: #007bff; /* A blue that stands out */
+    color: #ffffff;
+    border-radius: 30px; /* Makes the button rounded */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase; /* Optional: makes the text uppercase for emphasis */
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly larger on hover for effect */
+}
+
+/* Ensure section titles are uniform */
+#introduction h1, #features h2, #testimonials h2, #call-to-action h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .feature-item, .testimonial {
+        margin: 20px;
+    }
+}
+
+/* Feature section styles */
+.feature-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.feature-text {
+    flex-basis: 50%;
+    padding-right: 20px;
+}
+
+.feature-image {
+    flex-basis: 50%;
+}
+
+.feature-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Responsive adjustments for features */
+@media (max-width: 768px) {
+    .feature-item {
+        flex-direction: column;
+    }
+
+    .feature-text, .feature-image {
+        flex-basis: 100%;
+    }
+
+    .feature-text {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+}
+
+/* Testimonials section styles */
+#testimonials {
+    background: #f7f7f7;
+    padding: 4rem 0;
+}
+
+.testimonial-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.testimonial-text {
+    flex: 1;
+    padding: 1rem;
+    position: relative;
+    font-style: italic;
+    text-align: left; /* Aligning text to the left for longer content */
+}
+
+.testimonial-image {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.testimonial-image img {
+    width: 800px; /* Adjust as necessary */
+    height: 400px; /* Adjust as necessary */
+    object-fit: cover; /* Ensures the image covers the area nicely */
+}
+
+/* Responsive adjustments for testimonials */
+@media (max-width: 768px) {
+    .testimonial-item {
+        flex-direction: column;
+    }
+
+    .testimonial-image img {
+        margin-bottom: 1rem; /* Adds space between the image and text */
+    }
+}
+
