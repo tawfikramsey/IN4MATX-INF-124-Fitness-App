@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutrition - Comprehensive Fitness App</title>
     <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/nutrition.js"></script>
 </head>
+
 <body>
     <!-- Nutrition Page -->
     <!-- This page provides resources and tools for managing diet and nutrition. -->
@@ -31,25 +34,23 @@
         <section id="nutrition-tracking">
             <h1>Nutrition and Diet</h1>
             <p>Manage your meals and track your calorie intake to maintain a balanced diet.</p>
-            <!-- Meal Plans and Dietary Tracking -->
-            <div class="meal-plans">
-                <h2>Meal Plans</h2>
-                <p>Choose from pre-designed meal plans that cater to various dietary needs and goals.</p>
-                <!-- List of meal plans -->
-                <div class="meal-plan-card">
-                    <img src="assets/meal-plan1.jpg" alt="Low Carb Plan">
-                    <h3>Low Carb Plan</h3>
-                    <p>Designed for weight loss and maintaining blood sugar levels.</p>
-                    <a href="meal-plan-detail.html?mealPlan=low-carb" class="button">View Plan</a>
-                </div>
-                <div class="meal-plan-card">
-                    <img src="assets/meal-plan2.jpg" alt="High Protein Plan">
-                    <h3>High Protein Plan</h3>
-                    <p>Great for muscle gain and repair after workouts.</p>
-                    <a href="meal-plan-detail.html?mealPlan=high-protein" class="button">View Plan</a>
-                </div>
-                <!-- More meal plans can be added as needed -->
+
+            <!-- Input fields for the food and its amount -->
+            <div id="food-input">
+                <label for="food-name">Food:</label>
+                <input type="text" id="food-name" placeholder="Enter food name">
+
+                <label for="food-amount">Amount (g):</label>
+                <input type="number" id="food-amount" placeholder="Enter amount">
             </div>
+
+            <!-- Search Button -->
+            <button type="button" id="search-button">Search</button>
+
+            <button type="button" id="add-food">Add Food to Daily Calorie Intake</button>
+
+            <!-- Display Nutritional Information -->
+            <div id="food-info"></div>
         </section>
     </main>
 
@@ -64,8 +65,6 @@
             </ul>
         </nav>
     </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- <script src="scripts/main.js"></script> -->
 </body>
+
 </html>
