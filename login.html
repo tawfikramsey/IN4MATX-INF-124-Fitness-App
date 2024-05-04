@@ -8,44 +8,126 @@
     <link rel="stylesheet" href="styles/login.css">
 </head>
 <body>
+    <!-- Dashboard-->
+    <!-- main interface for users right after they log in which should display their workout plans, workout frequency, events to be added, and social commmunity functions -->
+
     <header>
-        <!-- Nav bar -->
+        <!-- Navigation bar -->
         <nav>
             <div id="logo">
                 <a href="index.html"><img src="assests/logo.png" alt="Fitness App Logo"></a>
             </div>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="logout.html">Logout</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- Login Form -->
-        <section id="login" style="max-width: 400px; margin: auto; padding-top: 50px;">
-            <h1>Welcome Back</h1>
-            <form action="/login" method="post">
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+        <!-- User's Overview -->
+        <section id="overview">
+            <h1>Dashboard</h1>
+            <div class="summary">
+                <h2>Your Progress</h2>
+                <p>Track your latest workouts and diet plans here.</p>
+                <!-- Widgets or cards displaying brief stats -->
+                <div class="stat-card">
+                    <h3>Workouts This Week</h3>
+                    <p>5 Sessions</p>
                 </div>
-                
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                <div class="stat-card">
+                    <h3>Calories Consumed</h3>
+                    <p>2000 kcal/day average</p>
                 </div>
-                
-                <div class="form-group">
-                    <button type="submit" class="cta-button">Log In</button>
+                <div class="stat-card">
+                    <h3>Steps Today</h3>
+                    <p>10,000 Steps</p>
                 </div>
+                <div class="stat-card">
+                    <h3>Water Intake</h3>
+                    <p>8 Glasses</p>
+                </div>
+                <!-- Additional stat cards -->
+                <div class="stat-card">
+                    <h3>Workouts This Month</h3>
+                    <p>20 Sessions</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Distance Run</h3>
+                    <p>15 Miles</p>
+                </div>
+                <!-- New section for upcoming events -->
+                <div class="upcoming-events">
+                    <h2>Upcoming Events</h2>
+                    <div class="event-card">
+                        <h3>Yoga Class</h3>
+                        <p>Tomorrow, 6:00 PM</p>
+                    </div>
+                    <div class="event-card">
+                        <h3>Running Club Meetup</h3>
+                        <p>Next Saturday, 9:00 AM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                <div class="form-group">
-                    <a href="forgot-password.html">Forgot your password?</a>
-                </div>
-            </form>
+        <!-- Quick Actions -->
+        <section id="quick-actions">
+            <h2>Quick Actions</h2>
+            <a href="new-workout.html" class="button">Start New Workout</a>
+            <a href="add-meal.html" class="button">Log Meal</a>
+            <a href="progress-report.html" class="button">View Progress Report</a>
+            <!-- Additional quick action buttons -->
+            <a href="#" class="button">Set Goals</a>
+            <a href="#" class="button">Track Sleep</a>
+            <a href="#" class="button">Record Weight</a>
+        </section>
 
-            <p>Don't have an account yet? <a href="signup.html">Sign up now</a>.</p>
+        <!-- Your Fitness Stats -->
+        <section id="fitness-stats">
+            <h2>Your Fitness Stats</h2>
+            <!-- Widgets or cards displaying detailed fitness stats -->
+            <div class="stat-card">
+                <h3>Body Weight</h3>
+                <p>150 lbs</p>
+            </div>
+            <div class="stat-card">
+                <h3>Body Fat Percentage</h3>
+                <p>20%</p>
+            </div>
+            <div class="stat-card">
+                <h3>Muscle Mass</h3>
+                <p>120 lbs</p>
+            </div>
+            <div class="stat-card">
+                <h3>Resting Heart Rate</h3>
+                <p>65 bpm</p>
+            </div>
+            <!-- Additional fitness stat cards -->
+            <div class="stat-card">
+                <h3>Workout Duration</h3>
+                <p>1 hour</p>
+            </div>
+            <div class="stat-card">
+                <h3>Workout Intensity</h3>
+                <p>High</p>
+            </div>
+        </section>
+
+        <!-- Social Sharing -->
+        <section id="social-sharing">
+            <h2>Share Your Progress</h2>
+            <p>Connect with friends and share your fitness journey.</p>
+            <!-- Social media sharing buttons -->
+            <div class="social-buttons">
+                <button class="share-button">Facebook</button>
+                <button class="share-button">Twitter</button>
+                <button class="share-button">Instagram</button>
+            </div>
         </section>
     </main>
 
@@ -59,5 +141,9 @@
             </ul>
         </nav>
     </footer>
+
 </body>
 </html>
+
+<!-- -->
+   
