@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition - Rallan</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/nutrition.js"></script>
+</head>
+
+<body>
+    <!-- Nutrition Page -->
+    <!-- This page provides resources and tools for managing diet and nutrition. -->
+
+    <header>
+        <!-- Nav bar -->
+        <nav>
+            <div id="logo">
+                <a href="index.html"><img src="assests/logo.png" alt="Fitness App Logo"></a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Nutrition Tracking Section -->
+        <section id="nutrition-tracking">
+            <h1>Nutrition and Diet</h1>
+            <p>Manage your meals and track your calorie intake to maintain a balanced diet.</p>
+
+            <!-- Input fields for the food and its amount -->
+            <div id="food-input">
+                <label for="food-name">Food:</label>
+                <input type="text" id="food-name" placeholder="Enter food name">
+
+                <label for="food-amount">Amount (g):</label>
+                <input type="number" id="food-amount" placeholder="Enter amount">
+            </div>
+
+            <!-- Search Button -->
+            <button type="button" id="search-button">Search</button>
+
+            <button type="button" id="add-food">Add Food to Daily Calorie Intake</button>
+
+            <!-- Display Nutritional Information -->
+            <div id="food-info"></div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

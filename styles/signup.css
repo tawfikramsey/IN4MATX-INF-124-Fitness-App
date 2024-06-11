@@ -1,0 +1,77 @@
+/* signup.css - Styles specifically for the sign-up page */
+
+/* General styling for the sign-up form container */
+#signup {
+    max-width: 320px; /* Adjusts the width of the sign-up form for better focus */
+    margin: 2rem auto; /* Centers the form on the page with margin */
+    padding: 2rem; /* Adds padding inside the form area */
+    background: #ffffff; /* Sets a white background for the form */
+    border-radius: 8px; /* Rounds the corners of the form */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+/* Styles for form headings */
+#signup h1 {
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center; /* Centers the heading */
+}
+
+/* Enhances form input fields */
+#signup .form-group {
+    margin-bottom: 1rem;
+}
+
+#signup label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+#signup input[type='text'],
+#signup input[type='email'],
+#signup input[type='password'] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd; /* Adds a light border to the inputs */
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+/* Styles for the sign-up button to make it stand out */
+#signup .cta-button {
+    width: 100%; /* Makes the button extend full width of the form */
+    padding: 0.8rem; /* Increases padding for a larger, more clickable area */
+    margin-top: 1rem; /* Adds space above the button */
+    background-color: #28a745; /* A distinct color for your primary action buttons */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#signup .cta-button:hover {
+    background-color: #218838; /* A slightly darker shade on hover */
+}
+
+/* Styling for the 'Already have an account?' link */
+#signup p {
+    text-align: center; /* Centers the text */
+    margin-top: 2rem; /* Adds space before the log in invitation */
+}
+
+#signup p a {
+    color: #0056b3; /* Theme color for links */
+    text-decoration: none;
+}
+
+#signup p a:hover {
+    text-decoration: underline; /* Adds underline on hover for better user interaction */
+}
+
+/* Responsive styling adjustments */
+@media (max-width: 768px) {
+    #signup {
+        padding: 10px;
+        margin: 20px;
+    }
+}

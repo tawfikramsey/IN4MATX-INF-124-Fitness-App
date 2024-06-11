@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workouts - Rallan</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Workouts Page -->
+    <!-- Allows users to browse, select, and track workouts. -->
+
+    <header>
+        <!-- Nav bar -->
+        <nav>
+            <div id="logo">
+                <a href="index.html"><img src="assests/logo.png" alt="Fitness App Logo"></a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Browse Workouts Section -->
+        <section id="browse-workouts">
+            <h1>Explore Workouts</h1>
+            <p>Find the best workout routines tailored to your fitness level and goals.</p>
+            <!-- List of workouts -->
+            <div class="workout-list">
+                <!-- Each workout card includes a brief description and a link to detailed instructions -->
+                <div class="workout-card">
+                    <img src="assets/workout1.jpg" alt="Workout 1">
+                    <h3>Cardio Blast</h3>
+                    <p>30-minute high-intensity cardio to boost your heart rate.</p>
+                    <a href="workout-detail.html?workout=cardio-blast" class="button">View Details</a>
+                </div>
+                <div class="workout-card">
+                    <img src="assets/workout2.jpg" alt="Workout 2">
+                    <h3>Strength Training</h3>
+                    <p>Build muscle strength with these essential exercises.</p>
+                    <a href="workout-detail.html?workout=strength-training" class="button">View Details</a>
+                </div>
+                <!-- Add more workout cards as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
