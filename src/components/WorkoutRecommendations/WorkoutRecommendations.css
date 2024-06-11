@@ -1,0 +1,40 @@
+/* src/components/WorkoutRecommendations.css */
+
+.workout-recommendations {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .workout-recommendations h1 {
+    color: #0056b3;
+  }
+  
+  .workout-recommendations form {
+    margin-bottom: 20px;
+  }
+  
+  .workout-recommendations select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .workout-recommendations .recommended-workouts {
+    text-align: left;
+  }
+  
+  .workout-recommendations .recommended-workouts h2 {
+    color: #0056b3;
+  }
+  
+  .workout-recommendations .recommended-workouts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .workout-recommendations .recommended-workouts li {
+    margin-bottom: 10px;
+  }
+  
+  

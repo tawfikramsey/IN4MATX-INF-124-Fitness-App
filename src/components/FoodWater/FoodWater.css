@@ -1,0 +1,96 @@
+/* src/components/FoodWater/FoodWater.css */
+
+.foodwater-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .details-group {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #004494;
+  }
+  
+  .entry-list {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .entry-list h2 {
+    text-align: center;
+    color: #0056b3;
+  }
+  
+  .entry-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .entry-list li {
+    background-color: #eef4fa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .entry-actions {
+    margin-top: 10px;
+  }
+  
+  .entry-actions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .entry-actions button.edit {
+    background-color: #28a745;
+  }
+  
+  .entry-actions button.delete {
+    background-color: #dc3545;
+  }
+  
+  .entry-actions button.edit:hover {
+    background-color: #218838;
+  }
+  
+  .entry-actions button.delete:hover {
+    background-color: #c82333;
+  }
+  

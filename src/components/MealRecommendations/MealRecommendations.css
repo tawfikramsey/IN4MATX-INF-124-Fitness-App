@@ -1,0 +1,65 @@
+/* src/components/MealRecommendations/MealRecommendations.css */
+
+.meal-recommendations-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .meal-options {
+    margin-top: 30px;
+  }
+  
+  .meal-options h2 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 20px;
+  }
+  
+  .meal-options ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .meal-options li {
+    background-color: #eef4fa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .meal-options li strong {
+    color: #0056b3;
+  }
+  
+  .meal-options li br {
+    line-height: 1.5;
+  }
+  
