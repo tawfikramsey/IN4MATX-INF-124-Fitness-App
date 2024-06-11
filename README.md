@@ -2,6 +2,9 @@
 
 This is a fitness app built using React for the frontend and Node.js with Express for the backend. The app allows users to log their workouts, food, and water intake, and provides recommendations for workouts and meals.
 
+# Demo Link
+https://vimeo.com/956773349?share=copy
+
 ## Table of Contents
 
 - [Installation](#installation)
